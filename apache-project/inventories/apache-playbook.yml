@@ -1,0 +1,12 @@
+- hosts: webservers
+  become: yes
+  roles:
+    - apache
+- hosts: webservers
+  become: yes
+  roles:
+    - ntp-ansible-role-centos-9
+
+
+
+

@@ -1,0 +1,6 @@
+roles:
+  - name: ntp-ansible-role-centos-9
+    src: https://github.com/axolotlite/ntp-ansible-role-centos-9
+    scm: git
+    version: main
+
